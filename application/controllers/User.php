@@ -27,7 +27,7 @@ class User extends MY_Controller {
             } else {
                 $_SESSION['auth_message'] = $this->ion_auth->errors();
                 $this->session->mark_as_flash('auth_message');
-                redirect('user/login_view');
+                redirect('user/login');
             }
         }
     }
