@@ -1,0 +1,22 @@
+<?php 
+$lang['first_name'] = 'First Name:';
+$lang['last_name'] = 'Last Name:';
+$lang['username'] = 'Username:';
+$lang['email'] = 'E-mail:';
+$lang['company'] = 'Company:';
+$lang['phone'] = 'Phone Number:';
+$lang['password'] = 'Password:';
+$lang['confirm_password'] = 'Confirm Password:';
+$lang['about'] = 'About';
+$lang['home'] = 'Home';
+$lang['team'] = 'Our Team';
+$lang['programs'] = 'Programs';
+$lang['services'] = 'Services';
+$lang['news'] = 'News &amp; Events';
+$lang['contact'] = 'Contact';
+$lang['logout'] = 'Logout';
+$lang['register'] = 'Register';
+$lang['sign_in'] = 'Sign In';
+$lang['remember_me'] = 'Remember Me';
+$lang['dashboard_welcome'] = 'Welcome to your Dashboard';
+$lang['v_register'] = 'Vendor Registration';

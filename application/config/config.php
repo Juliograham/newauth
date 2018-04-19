@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://localhost/newauth/';
 
 /*
 |--------------------------------------------------------------------------
@@ -76,8 +76,17 @@ $config['url_suffix'] = '';
 | than english.
 |
 */
-$config['language']	= 'english';
 
+/* default language abbreviation */
+$config['language_abbr'] = "en";
+
+/* set available language abbreviations */
+$config['lang_uri_abbr'] = array("es" => "spanish", "en" => "english", "ja" => "japanese");
+
+/* hide the language segment (use cookie) */
+$config['lang_ignore'] = FALSE;
+
+$config['composer_autoload'] = APPPATH.'vendor/autoload.php';
 /*
 |--------------------------------------------------------------------------
 | Default Character Set
@@ -136,7 +145,6 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = FALSE;
 
 /*
 |--------------------------------------------------------------------------
