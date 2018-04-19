@@ -1,7 +1,8 @@
 <?php
+
 use \Stripe\Stripe;
-use \Stripe\Customer;
 use \Stripe\Charge;
+use \Stripe\Customer;
 use \Stripe\Error;
 
 class Stripe_payment extends CI_Controller {

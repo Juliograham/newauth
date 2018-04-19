@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://localhost/newauth/';
+=======
+$config['base_url'] = 'http://localhost/newauth';
+>>>>>>> refs/remotes/origin/master
 
 /*
 |--------------------------------------------------------------------------
@@ -145,6 +149,10 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
+<<<<<<< HEAD
+=======
+$config['composer_autoload'] = APPPATH.'vendor/autoload.php';
+>>>>>>> refs/remotes/origin/master
 
 /*
 |--------------------------------------------------------------------------

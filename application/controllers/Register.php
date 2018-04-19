@@ -4,9 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Register extends MY_Controller {
     public function index() {
 
+<<<<<<< HEAD
         $this->lang->load('test');
         //$this->lang->load('span_lang', 'spanish');
 
+=======
+>>>>>>> refs/remotes/origin/master
         $this->load->library('form_validation');
         $this->form_validation->set_rules('first_name', 'First name','trim|required');
         $this->form_validation->set_rules('last_name', 'Last name','trim|required');
@@ -21,6 +24,7 @@ class Register extends MY_Controller {
         } else {
             $first_name = $this->input->post('first_name');
             $last_name = $this->input->post('last_name');
+<<<<<<< HEAD
             $username = $this->input->post('username');
             $email = $this->input->post('email');
             $company = $this->input->post('company');
@@ -32,6 +36,15 @@ class Register extends MY_Controller {
                 'last_name' => $last_name,
                 'company' => $company,
                 'phone' => $phone
+=======
+            $username = $this->input->post('first_name');
+            $email = $this->input->post('email');
+            $password = $this->input->post('first_name');
+         
+            $additional_data = array(
+                'first_name' => $first_name,
+                'last_name' => $last_name
+>>>>>>> refs/remotes/origin/master
             );
          
             $this->load->library('ion_auth');
