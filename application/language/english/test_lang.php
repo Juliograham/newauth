@@ -20,3 +20,4 @@ $lang['sign_in'] = 'Sign In';
 $lang['remember_me'] = 'Remember Me';
 $lang['dashboard_welcome'] = 'Welcome to your Dashboard';
 $lang['v_register'] = 'Vendor Registration';
+$lang['mon'] = 'Skate';
